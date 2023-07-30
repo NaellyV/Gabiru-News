@@ -328,3 +328,17 @@ body{
   font-weight: 400;
 }
 
+@media(max-width: 1200){
+
+  .cabecalho{
+    padding : 10%
+  }
+  .cabecalho__menu{
+    justify-content: center;
+  }
+  .apresentacao{
+    flex-direction: column-reverse;
+    padding : 5%
+  }
+}
+
